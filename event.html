@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Alex - Event Invitation </title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        #disco {
+            position: absolute;
+            top: 245px;
+            left: 300px;
+        }
+
+        #discoball {
+            position: absolute;
+            top: 245px;
+            right: 300px;
+        }
+
+        #info {
+            font-size: 10px;
+            font-style: italic;
+        }
+
+        #details {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="Middle">
+        <div id="Header">
+            <h1 class="Title"> <a href="index.html">Aleksandar's Homepage</a> </h1>
+        </div>
+        <div id="Links">
+            <table>
+                <tr>
+                    <td onclick="location.href = 'travel.html';"><a href="travel.html">Travel webpage</a></td>
+                    <td onclick="location.href = 'blog.html';"><a href="blog.html">My blog</a></td>
+                    <td onclick="location.href = 'event.html';"><a href="event.html">Event Invitation</a></td>
+                    <td onclick="location.href = 'recipe.html';"><a href="recipe.html">Recipe book</a></td>
+                </tr>
+            </table>
+        </div>
+        <div id="Main">
+            <h1>You're invited!</h1>
+            <h2>To a Birthday!</h2>
+
+            <p id="details">The details:</p>
+            <ol>
+                <li>Megami</li>
+                <li>Graduation Attire</li>
+                <li>23:00 p.m.</li>
+            </ol>
+            <img id="disco" src="images/disco.jpg"
+                width="250">
+            <img id="discoball"
+                src="images/discoball.jpg"
+                width="80">
+            <h2>Bring:</h2>
+            <ul>
+                <li>Good vibes</li>
+                <li>Great people</li>
+                <li>Excellent DJ!</li>
+            </ul>
+            <h5 id="info"> Please contact me if you want to bring<br> a friend with you!</h5>
+        </div>
+        <div id="Footer">
+            <a> @ 2020 Aleksandar Aleksandrov</a>
+        </div>
+</body>

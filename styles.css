@@ -1,0 +1,59 @@
+body {
+    background-color: #484048;
+}
+
+#Middle {
+    background-color: #91aca1;
+    width: 800px;
+    text-align: center;
+    border-style: solid;
+    border-color: #cac7b0;
+    border-width: 2px;
+    margin: auto;
+}
+
+.Title {
+    color: #484048;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center; 
+}
+
+#Links {
+    border-style: solid;
+    border-color: #cac7b0;
+    border-width: 1px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#Links td {
+    margin: 0 auto;
+    padding: 0;
+    border-style: solid;
+    border-color: #cac7b0;
+    width: 200px;
+    text-align: center;
+}
+
+#Links td a {
+    text-decoration: none;
+    color: #484048;
+}
+
+#Links td:hover {
+    background-color: #cac7b0;
+}
+
+#Main {
+    text-align: center;
+}
+
+#Main img {
+    padding-top: 16px;
+}
+
+#Footer {
+    text-align: center;
+    background-color: #cac7b0;
+}
